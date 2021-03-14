@@ -9,12 +9,10 @@ sc = SparkContext.getOrCreate()
 files_rdd = sc.wholeTextFiles(files)
 ss = SparkSession.builder.getOrCreate()
 
-##Question 1
 num_files = files_rdd.count()
 print(num_files)
 print()
 
-##Question 2
 file_contents = files_rdd.map(lambda x: (x[0].split("/"), x[1])).map(lambda x: (x[0][len(x[0]) - 1], x[1]))\
         .map(lambda x: (x[0].split("_")[1:], x[1]))\
         .map(lambda x: ((x[0][0], x[0][1], x[0][2].split('.')[0]), x[1].split(";\n")))\
@@ -23,7 +21,6 @@ file_contents = files_rdd.map(lambda x: (x[0].split("/"), x[1])).map(lambda x: (
 print(file_contents.count())
 print()
 
-##Question 3
 schema = StructType([
     StructField('subject_id', IntegerType(), False), 
     StructField('sensor', StringType(), False), 
@@ -40,21 +37,17 @@ file_df = ss.createDataFrame(file_type_conv, schema)
 file_df.printSchema()
 file_df = file_df.persist()
 
-##Question 4
 subject_files = file_df.select("subject_id").distinct().orderBy("subject_id")
 subject_files.show(subject_files.count())
 print()
 
-##Question 5
 sensor_files = file_df.select("sensor").distinct().orderBy("sensor")
 sensor_files.show(sensor_files.count())
 print()
 
-##Question 6
 activity_codes = file_df.select("activity_code").distinct().orderBy("activity_code")
 activity_codes.show(activity_codes.count())
 
-##Question 7
 file_df.filter(f"subject_id == {int(subject_id)} and activity_code == '{str(activity_code)}'").\
         orderBy(["timestamp", "sensor"], ascending=[True, False]).show(n)
 file_df.filter(f"subject_id == {int(subject_id)} and activity_code == '{str(activity_code)}'")\
