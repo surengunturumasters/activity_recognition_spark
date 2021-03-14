@@ -8,6 +8,9 @@ Examples of activities to predict include:
   - Standing
   - Dribbling a Basketball, etc...
 
+Data Preprocess Done in Apache Spark
+Analysis Using SparkML and H20
+
 ## Dataset
 "WISDM Smartphone and Smartwatch Activity and Biometrics Dataset"
 
@@ -33,7 +36,11 @@ Organize all this information into a spark RDD and then to a Spark DataFrame
 
 Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/feature_extraction.py)
 
-## 2) 
+## 2) Data Preprocess
   
- Data Preprocessing is done using Apache Spark
- Predictions are done using Spark ML and Sparkling Water (H20)
+For each activity, included all percentile readings of: 
+  - x, y, z coordinates
+
+Order by timestamp
+
+Code [here]()
