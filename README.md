@@ -31,6 +31,8 @@ Extract labels:
 
 Organize all this information into a spark RDD and then to a Spark DataFrame
 
+Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/feature_extraction.py)
+
 ## 2) 
   
  Data Preprocessing is done using Apache Spark
