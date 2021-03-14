@@ -16,8 +16,10 @@ Raw Time Series Sensor Data
 Description of dataset described [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/WISDM-dataset-description.pdf)
 
 
-Steps taken in the Project are Below: 
+**Steps taken in the Project are Below: **
+
 ## 1) Feature Extraction
+
 Extract features used to predict the above activities:
   - subject_id
   - SmartPhone or SmartWatch Data?
