@@ -3,6 +3,7 @@ Use smartphone and smartwatch data to predict activities using Apache Spark and 
 Examples of activities to predict include: 
   - Sitting
   - Walking
+  - Eating
   - Typing
   - Standing
   - Dribbling a Basketball, etc...
