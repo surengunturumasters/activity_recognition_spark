@@ -47,6 +47,15 @@ Also included data from next timestamp and previous timestamp
 
 Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/sensor_preprocess.py) for first part of preprocessing
 
-Code [here]() for including data for next and previous timestamp
+Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/preprocess_model.py) for including data for next and previous timestamp
 
-## 3) Spark ML
+## 3) Spark ML and H20
+Using Spark ML, call many models to predict whether someone is eating using 
+  - current, previous and future timestamps
+  - above features in preprocess and feature extraction step
+
+Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/preprocess_model.py) using a logistic regression model from Spark ML
+
+Code [here]() using a random forests and gradient boosting model from Spark ML
+
+Code [here]() using XGBoost and Deep Learning Model from H20
