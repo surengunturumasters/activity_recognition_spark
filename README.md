@@ -43,4 +43,10 @@ For each activity, included all percentile readings of:
 
 Order by timestamp
 
-Code [here]()
+Also included data from next timestamp and previous timestamp
+
+Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/sensor_preprocess.py) for first part of preprocessing
+
+Code [here]() for including data for next and previous timestamp
+
+## 3) Spark ML
