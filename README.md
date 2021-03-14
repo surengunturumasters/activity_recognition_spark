@@ -6,5 +6,6 @@ Examples of activities to predict include:
   - Typing
   - Standing
   - Dribbling a Basketball, etc...
+  
  Data Preprocessing is done using Apache Spark
  Predictions are done using Spark ML and Sparkling Water (H20)
