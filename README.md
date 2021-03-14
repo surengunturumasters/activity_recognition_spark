@@ -58,4 +58,4 @@ Code [here](https://github.com/surengunturumasters/activity_recognition_spark/bl
 
 Code [here]() using a random forests and gradient boosting model from Spark ML
 
-Code [here]() using XGBoost and Deep Learning Model from H20
+Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/h20_models.py) using XGBoost and Deep Learning Model from H20
