@@ -11,6 +11,7 @@ Examples of activities to predict include:
 ## Dataset
 "WISDM Smartphone and Smartwatch Activity and Biometrics Dataset"
 Raw Time Series Sensor Data
+Description of dataset described [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/WISDM-dataset-description.pdf)
 
 Steps taken in the Project are Below: 
 
