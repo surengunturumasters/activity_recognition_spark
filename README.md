@@ -59,3 +59,6 @@ Code [here](https://github.com/surengunturumasters/activity_recognition_spark/bl
 Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/rf_model.py) using a random forests and gradient boosting model from Spark ML
 
 Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/h20_models.py) using XGBoost and Deep Learning Model from H20
+
+## Results
+Using a combination of metrics such as f1 score, the best/most accurate model tended to be the deep learning model from H20, but it is way more complex and requires more training time. 
