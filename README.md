@@ -56,6 +56,6 @@ Using Spark ML, call many models to predict whether someone is eating using
 
 Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/preprocess_model.py) using a logistic regression model from Spark ML
 
-Code [here]() using a random forests and gradient boosting model from Spark ML
+Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/rf_model.py) using a random forests and gradient boosting model from Spark ML
 
 Code [here](https://github.com/surengunturumasters/activity_recognition_spark/blob/main/h20_models.py) using XGBoost and Deep Learning Model from H20
